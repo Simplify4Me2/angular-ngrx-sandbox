@@ -1,0 +1,14 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest-ful api for Angular & Flutter.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Simonito",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
