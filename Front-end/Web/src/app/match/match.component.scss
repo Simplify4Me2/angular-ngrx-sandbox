@@ -6,6 +6,18 @@ span {
   display: flex;
 }
 
+.scoreboard {
+  background-color: grey;
+  // margin: 0.2rem;
+  // justify-content: center;
+  // align-content: center;
+  // width: 50%;
+  // text-align: center;
+  margin: 0.2rem auto;
+  // align-items: center;
+  // display: inline-block;
+}
+
 .score span {
   font-size: 5rem;
   background-color: black;
