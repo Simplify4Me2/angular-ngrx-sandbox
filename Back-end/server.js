@@ -1,6 +1,19 @@
 var express = require('express'),
     app = express(),
     port = process.env.PORT || 3000;
+    var cors = require('cors');
+
+const corsOptions = {
+    origin: 'http://localhost:4200',
+    methods: [
+        'GET'
+    ],
+    allowedHeaders: [
+        'Content-Type'
+    ]
+};
+
+app.use(cors(corsOptions));
 
 app.listen(port);
 

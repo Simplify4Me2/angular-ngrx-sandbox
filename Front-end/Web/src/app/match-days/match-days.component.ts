@@ -14,7 +14,8 @@ export class MatchDaysComponent implements OnInit {
   constructor(private service: MatchService) { }
 
   ngOnInit() {
-    this.matches = this.service.get();
+    this.service.get().then(f => this.matches = f);
+    // this.matches = this.service.getMatches();
   }
 
 }
