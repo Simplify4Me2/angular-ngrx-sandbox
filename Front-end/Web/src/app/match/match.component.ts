@@ -8,6 +8,5 @@ import { Match } from '../shared/match.model';
 })
 export class MatchComponent {
 
-  @Input() match: Match; 
-
+  @Input() match: Match;
 }
