@@ -8,14 +8,16 @@ span {
 
 .scoreboard {
   background-color: grey;
+  // flex-direction: column;
   // margin: 0.2rem;
   // justify-content: center;
   // align-content: center;
   // width: 50%;
   // text-align: center;
   margin: 0.2rem auto;
-  // align-items: center;
+  align-items: center;
   // display: inline-block;
+  // display: block;
 }
 
 .score span {
