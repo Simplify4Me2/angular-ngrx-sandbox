@@ -15,7 +15,7 @@ export class MatchService {
       .toPromise()
       .catch(ex => {
         console.log(ex);
-        return [];
+        return this.getMatches();
       });
   }
 
