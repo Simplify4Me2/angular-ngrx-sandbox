@@ -1,0 +1,40 @@
+span {
+  margin: 0.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.scoreboard {
+  background-color: grey;
+  // flex-direction: column;
+  // margin: 0.2rem;
+  // justify-content: center;
+  // align-content: center;
+  // width: 50%;
+  // text-align: center;
+  margin: 0.2rem auto;
+  align-items: center;
+  // display: inline-block;
+  // display: block;
+}
+
+.score span {
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+  padding: 0rem 0.4rem;
+}
+
+.team {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.align-right {
+  text-align: right;
+}
